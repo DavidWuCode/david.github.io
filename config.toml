@@ -1,0 +1,45 @@
+baseURL = 'https://david.github.io/'
+languageCode = 'zh-tw'
+title = "Whatever you want"
+theme = 'PaperMod'
+buileDrafts = false
+
+[[menu.main]]
+identifier = "tags"
+name="tags"
+url="/tags/"
+weight=20
+
+[[menu.main]]
+identifier = "categories"
+name="categories"
+url="/categories/"
+weight=20
+
+[[menu.main]]
+identifier = "archives"
+name= "Archives"
+url= "/archives/"
+weight=30
+
+[params.profileMode]
+enabled = true
+title="abc"
+subtitle="dev"
+imageUrl="img/pic.png"
+imageWidth = 300
+imageHeight = 300
+imageTitle = "title"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/DavidWuCode/david.github.io"
+
+[params]
+ShowBreadCrumbs = true
+ShowReadingTime = true
+ShowShareButton = true
+ShowPostNavLinks = true
+
+[params.cover]
+linkFullImages = true
